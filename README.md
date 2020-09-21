@@ -5,7 +5,7 @@
 Grow your Garden
 
 ## Project Description
-Are you interested in starting a garden or just like plants? Explore thousands of different plants and 
+Are you interested in starting a garden or just like plants? Explore thousands of different plants and see what they look like.
 
 ## API and Data Sample
 
