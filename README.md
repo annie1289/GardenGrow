@@ -178,27 +178,20 @@ json {
 [https://www.figma.com/file/5zVrII5fyqyCIbM9XhAz2G/Grow-Your-Garden-Mockup?node-id=0%3A1] --this is the desktop view, will be working on mobile after
 
 ### MVP/PostMVP
-
-The functionality will then be divided into two separate lists: MPV and PostMVP.  Carefully decided what is placed into your MVP as the client will expect this functionality to be implemented upon project completion.  
+ 
 
 #### MVP 
-*These are examples only. Replace with your own MVP features.*
 
 - Find and use external api for plant images, common name, etc.
 - Show API data on page including the image (if there is one) based on what plant the user searches 
 - Clear search bar and replace with new searches 
 
 #### PostMVP  
-*These are examples only. Replace with your own Post-MVP features.*
 
 - Add second API 
 - Add your favorite plants to a garden container at the bottom of the page that saves all of them
 
 ## Project Schedule
-
-This schedule will be used to keep track of your progress throughout the week and align with our expectations.  
-
-You are **responsible** for scheduling time with your squad to seek approval for each deliverable by the end of the corresponding day, excluding `Saturday` and `Sunday`.
 
 |  Day | Deliverable | Status
 |---|---| ---|
@@ -213,10 +206,6 @@ You are **responsible** for scheduling time with your squad to seek approval for
 [https://www.canva.com/design/DAEIYs83Qnk/share/preview?token=12dz-cNX0PN6tjNrrRXGDg&role=EDITOR&utm_content=DAEIYs83Qnk&utm_campaign=designshare&utm_medium=link&utm_source=sharebutton]
 
 ## Timeframes
-
-Tell us how long you anticipate spending on each area of development. Be sure to consider how many hours a day you plan to be coding and how many days you have available until presentation day.
-
-Time frames are also key in the development cycle.  You have limited time to code all phases of the game.  Your estimates can then be used to evalute game possibilities based on time needed and the actual time you have before game must be submitted. It's always best to pad the time by a few hours so that you account for the unknown so add and additional hour or two to each component to play it safe. Throughout your project, keep track of your Time Invested and Actual Time and update your README regularly.
 
 | Component | Priority | Estimated Time | Time Invested | Actual Time |
 | --- | :---: |  :---: | :---: | :---: |
@@ -236,13 +225,6 @@ Time frames are also key in the development cycle.  You have limited time to cod
 
 ## Code Snippet
 
-Use this section to include a brief code snippet of functionality that you are proud of and a brief description.  
-
-```
-function reverse(string) {
-	// here is the code to reverse a string of text
-}
-```
 
 ## Change Log
  Use this section to document what changes were made and the reasoning behind those changes.  
