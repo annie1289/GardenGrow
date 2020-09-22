@@ -196,7 +196,7 @@ json {
 |  Day | Deliverable | Status
 |---|---| ---|
 |Sept 18-21| Prompt / Wireframes / Priority Matrix / Timeframes | Complete
-|Sept 21| Project Approval | Incomplete
+|Sept 21| Project Approval | Complete
 |Sept 22| Core Application Structure (HTML, CSS, etc.) | Incomplete
 |Sept 23| MVP | Incomplete
 |Sept 24| Post MVP/Styling | Incomplete
