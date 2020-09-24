@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+Access-Control-Allow-Origin: null
 
   <head>
     <meta charset="utf-8">
@@ -13,9 +14,18 @@
   <body>
     <h1>Grow Your Garden</h1>
     <img src= "https://dm0qx8t0i9gc9.cloudfront.net/thumbnails/image/rDtN98Qoishumwih/cartoon-background-green-garden-and-sunny-day_GyMHukdO_thumb.jpg" alt = "garden stockimage">
-    <form>
+    <div>
       <input type = "text" name = "search-plant" id = "search-plant" placeholder ="Plant Name">
       <button id = "button" >Get Plant info</button>
-    </form>
+      <button id = "button2" >Generate Random Plant</button>
+    </div>
+
+    <section class = "plants">
+      <h2>Plant List</h2>
+      <div class = "plant-container">
+        <h3 class = 'plantcommonname'></h3>
+        <p class = 'scientificname'></p>
+      </div>
+    </section>
   </body>
 </html>
