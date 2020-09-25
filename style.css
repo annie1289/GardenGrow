@@ -1,9 +1,9 @@
 body{
 text-align: center;
 margin: auto;
-background: url(https://st.depositphotos.com/3456837/4910/i/950/depositphotos_49109927-stock-photo-cracked-dirt-background.jpg);
 font-family: 'Courier Prime', monospace;
-color: white;
+color: black;
+background: url(https://whiteoakrichmond.com/wp-content/uploads/2013/10/grass-dirt-tiled-background.png);
 
 }
 
@@ -35,4 +35,8 @@ img{
   img{
     height: 50%
   }
+}
+
+p, h3 {
+  background-color: skyblue;
 }
