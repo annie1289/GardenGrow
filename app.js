@@ -10,29 +10,33 @@ button.addEventListener('click', async () => {
   console.log(response.data.data)
   findAll(response.data.data)
 })
-//figure out how to print info to the website
 
-//then figure out how to print specific information
-//figure out how to remove input value from bar and all stuff as well
-//plants section
 const plantDisplay = document.querySelector(".plants")
 const findAll = plants => {
+  removePlants()
   plants.forEach(plant => {
     const plantContainer = document.createElement('div')
     plantContainer.className = "plant-container"
-
+    if (plant.common_name !== null && plantContainer.scientific_name !==null && plant.image_url !== null) {
     const comName = document.createElement('h3')
     comName.innerHTML = `${plant.common_name}`
     plantContainer.appendChild(comName)
-
     const sciName = document.createElement('p')
     sciName.innerHTML = `${plant.scientific_name}`
     plantContainer.appendChild(sciName)
-
     const image = document.createElement('img')
     image.src = plant.image_url
     plantContainer.appendChild(image)
-
+    }
     plantDisplay.appendChild(plantContainer);
+    document.querySelector('#search-plant').value = ''
   })
+}
+
+//function to remove plants when you search
+function removePlants() {
+  const removeDiv = document.querySelector('.plants')
+  while (removeDiv.lastChild) {
+    (removeDiv.removeChild(removeDiv.lastChild))
+  }
 }
