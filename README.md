@@ -6,7 +6,7 @@ Grow your Garden
 
 ## Project Description
 Are you interested in starting a garden or just like plants? Explore and learn about thousands of different plants.
-
+https://annie1289.github.io/GardenGrow/
 ## API and Data Sample
 
 Specify the API you are using and include a link. Show us a snippet of JSON returned by your API so we know you can access it and get the info you need
