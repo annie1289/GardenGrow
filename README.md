@@ -221,7 +221,13 @@ json {
 | Total | H | 29.5hrs|  |26.5 |
 
 ## Code Snippet
-
+button2.addEventListener('click', async () => {
+  let page = Math.ceil((Math.random() * 1000))
+  console.log(page)
+  const response = await axios.get(`https://cors-anywhere.herokuapp.com/https://trefle.io/api/v1/plants?token=XnHXzqWAsibRqMprXaZJGxbOw_iIMqO2z9ZyvePxlHE&page=${page}`, {"headers": {"Access-Control-Allow-Origin": "*"}})
+  console.log(response.data.data)
+  findAll(response.data.data)
+})
 
 ## Change Log
  Use this section to document what changes were made and the reasoning behind those changes.  
