@@ -1,7 +1,6 @@
 //select input form and button
 const input = document.querySelector("#search-plant")
 const button = document.querySelector("#button")
-//const randombutton = document.querySelector("#button2")
 
 //create event listener for when you click the button, so that we can use the aync/await to get the plant data from the API
 button.addEventListener('click', async () => {
@@ -12,6 +11,7 @@ button.addEventListener('click', async () => {
 })
 
 const plantDisplay = document.querySelector(".plants")
+
 const findAll = plants => {
   removePlants()
   plants.forEach(plant => {
@@ -28,6 +28,7 @@ const findAll = plants => {
     image.src = plant.image_url
     plantContainer.appendChild(image)
     }
+    
     plantDisplay.appendChild(plantContainer);
     document.querySelector('#search-plant').value = ''
   })
