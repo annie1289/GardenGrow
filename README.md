@@ -197,9 +197,9 @@ json {
 |---|---| ---|
 |Sept 18-21| Prompt / Wireframes / Priority Matrix / Timeframes | Complete
 |Sept 21| Project Approval | Complete
-|Sept 22| Core Application Structure (HTML, CSS, etc.) | Incomplete
-|Sept 23| MVP | Incomplete
-|Sept 24| Post MVP/Styling | Incomplete
+|Sept 22| Core Application Structure (HTML, CSS, etc.) | Complete
+|Sept 23| MVP | Complete
+|Sept 24| Post MVP/Styling | Complete
 |Sept 25| Presentations | Incomplete
 
 ## Priority Matrix
@@ -209,19 +209,16 @@ json {
 
 | Component | Priority | Estimated Time | Time Invested | Actual Time |
 | --- | :---: |  :---: | :---: | :---: |
-| Retrieving Desired Data from API | H | 4hrs|  |  |
-| Creating form and button and major headers in HTML| H | 4hrs| |  |
-| HTML Debugging | H | 3 hrs |  |  |
-| Working on javascript to display images and desired information after someone searches it up | H | 3 hrs |  |  |
-|  JS Debugging | M | 3 hrs |  |  |
-| Select a color palette | M | 1.5 hrs |  |  |
-| Style background and element of page in CSS using flexbox | H | 5 hrs |  |  |
-| CSS Debugging | M | 3 hrs |  |  |
-| Javascript remove function | H | 3 hrs |  |  |
-| Create a garden at the bottom of the page in HTML | L | 3 hrs |  |  |
-| Use flexbox in CSS to style the garden | L | 3 hrs |  |  |
-| Write javascript that will allow for the selected plant image to be saved into the bottom garden  | L | 3 hrs |  |  |
-| Total | H | 36.5hrs|  | |
+| Retrieving Desired Data from API | H | 4hrs|  | 5 hrs |
+| Creating form and button and major headers in HTML| H | 4hrs| | 1 hr |
+| HTML Debugging | H | 3 hrs |  | 2 hrs |
+| Working on javascript to display images and desired information after someone searches it up | H | 3 hrs |  |4 hrs  |
+|  JS Debugging | M | 3 hrs |  | 3 hrs |
+| Select a color palette | M | 1.5 hrs |  | .5 hrs |
+| Style background and element of page in CSS using flexbox | H | 5 hrs |  | 5 hrs |
+| CSS Debugging | M | 3 hrs |  | 3 hrs  |
+| Javascript remove function | H | 3 hrs |  | 1 hr |
+| Total | H | 29.5hrs|  |26.5 |
 
 ## Code Snippet
 
